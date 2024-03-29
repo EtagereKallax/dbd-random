@@ -552,7 +552,39 @@ const KILLER_POWERS = {
         addons: [
             { name: 'Chainsaw File', image: 'chainsawFile', rarity: 'common', frenchName: 'Aiguiseur de Chaîne' },
             { name: 'Spark Plug', image: 'sparkPlug', rarity: 'common', frenchName: 'Bougie d\'Allumage' },
-            { name: 'Speed Limiter', image: 'speedLimiter'}
+            { name: 'Speed Limiter', image: 'speedLimiter', rarity: 'common', frenchName: 'Limiteur de Vitesse' },
+            { name: 'Vegetable Oil', image: 'vegetableOil', rarity: 'common', frenchName: 'Huile Végétale' },
+            { name: 'Chilli', image: 'chilli', rarity: 'uncommon', frenchName: 'Chili' },
+            { name: 'Homemade Muffler', image: 'homemadeMuffler', rarity: 'uncommon', frenchName: 'Silencieux Fait Maison' },
+            { name: 'Knife Scratches', image: 'knifeScratches', rarity: 'uncommon', frenchName: 'Griffures de Couteau' },
+            { name: 'Long Guide Bar', image: 'longGuideBar', rarity: 'uncommon', frenchName: 'Guide Allongé' },
+            { name: 'Primer Bulb', image: 'primerBulb', rarity: 'uncommon', frenchName: 'Poire d\'Amorçage' },
+            { name: 'Begrimed Chains', image: 'begrimedChains', rarity: 'rare', frenchName: 'Chaînes Souillées' },
+            { name: 'Grisly Chains', image: 'grislyChains', rarity: 'rare', frenchName: 'Chaîne Macabre' },
+            { name: 'Shop Lubricant', image: 'shopLubricant', rarity: 'rare', frenchName: 'Lubrifiant d\'Atelier' },
+            { name: 'The Beast\'s Marks', image: 'theBeastsMarks', rarity: 'rare', frenchName: 'Les Marques de la Bête' },
+            { name: 'The Grease', image: 'theGrease', rarity: 'rare', frenchName: 'La Graisse' },
+            { name: 'Award-winning Chilli', image: 'award-winningChilli', rarity: 'veryrare', frenchName: 'Chili Primé' },
+            { name: 'Depth Gauge Rake', image: 'depthGaugeRake', rarity: 'veryrare', frenchName: 'Allonge de Profondeur' },
+            { name: 'Light Chassis', image: 'lightChassis', rarity: 'veryrare', frenchName: 'Châssis Léger' },
+            { name: 'Rusted Chains', image: 'rustedChains', rarity: 'veryrare', frenchName: 'Chaîne Rouillée' },
+            { name: 'Carburettor Tuning Guide', image: 'carburettorTuningGuide', rarity: 'ultra', frenchName: 'Guide de Réglage de Carburateur' },
+            { name: 'Iridescent Flesh', image: 'iridescentFlesh', rarity: 'ultra', frenchName: 'Chair Irisée' }
+        ]
+    },
+    'nightmare': {
+        image: 'dreamDemon',
+        addons: [
+            { name: 'Garden Rake', image: 'gardenRake', rarity: 'common', frenchName: 'Râteau' },
+            { name: 'Kid\'s Drawing', image: 'kidsDrawing', rarity: 'common', frenchName: 'Dessin d\'Enfant' },
+            { name: 'Sheep Block', image: 'sheepBlock', rarity: 'common', frenchName: 'Bloc Mouton' },
+            { name: 'Wool Shirt', image: 'woolShirt', rarity: 'common', frenchName: 'Maillot en Laine' },
+            { name: 'Cat Block', image: 'catBlock', rarity: 'uncommon', frenchName: 'Bloc Chat' },
+            { name: 'Green Dress', image: 'greenDress', rarity: 'uncommon', frenchName: 'Robe Verte' },
+            { name: 'Nancy\'s Sketch', image: 'nancysSketch', rarity: 'uncommon', frenchName: 'Croquis de Nancy' },
+            { name: 'Outdoor Rope', image: 'outdoorRope', rarity: 'uncommon', frenchName: 'Corde de Randonnée' },
+            { name: 'Prototype Claws', image: 'prototypeClaws', rarity: 'uncommon', frenchName: 'Prototype de Griffes' },
+            { name: 'Blue Dress', image: 'blueDress', rarity: 'rare', frenchName: 'Robe Bleue' },
         ]
     }
 }
