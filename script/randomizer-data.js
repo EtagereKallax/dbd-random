@@ -919,5 +919,70 @@ const KILLER_POWERS = {
             { name: 'Death Troes Compilation', image: 'deathTroesCompilation', rarity: 'ultra', frenchName: 'Compilation d\'Agonies Mortelles' },
             { name: 'Iridescent Photocard', image: 'iridescentPhotocard', rarity: 'ultra', frenchName: 'Photo Irisée' }
         ]
+    },
+    'nemesis': {
+        image: 't-Virus',
+        addons: [
+            { name: 'Brian\'s Intestine', image: 'briansIntestine', rarity: 'common', frenchName: 'Intestin de Brian' },
+            { name: 'Damaged Syringe', image: 'damagedSyringe', rarity: 'common', frenchName: 'Seringue Abîmée' },
+            { name: 'S.T.A.R.S. Field Combat Manual', image: 'starsFieldCombatManual', rarity: 'common', frenchName: 'Manuel de Combat du S.T.A.R.S.' },
+            { name: 'Visitor Wristband', image: 'visitorWristband', rarity: 'common', frenchName: 'Bracelet de Visiteur' },
+            { name: 'Admin Wristband', image: 'adminWristband', rarity: 'uncommon', frenchName: 'Bracelet d\'Administrateur' },
+            { name: 'Adrenaline Injector', image: 'adrenalineInjector', rarity: 'uncommon', frenchName: 'Injecteur d\'Adrénaline' },
+            { name: 'Marvin\'s Blood', image: 'marvinsBlood', rarity: 'uncommon', frenchName: 'Sang de Marvin' },
+            { name: 'Mikhail\'s Eye', image: 'mikhailsEye', rarity: 'uncommon', frenchName: 'Oeil de Mikhail' },
+            { name: 'Zombie Heart', image: 'zombieHeart', rarity: 'uncommon', frenchName: 'Coeur de Zombie' },
+            { name: 'Licker Tongue', image: 'lickerTongue', rarity: 'rare', frenchName: 'Langue de Licker' },
+            { name: 'Plant 43 Vines', image: 'plant43Vines', rarity: 'rare', frenchName: 'Lianes de Plante 43' },
+            { name: 'Serotonin Injector', image: 'serotoninInjector', rarity: 'rare', frenchName: 'Injecteur de Sérotonine' },
+            { name: 'T-Virus Sample', image: 't-VirusSample', rarity: 'rare', frenchName: 'Échantillon du Virus T' },
+            { name: 'Tyrant Gore', image: 'tyrantGore', rarity: 'rare', frenchName: 'Carnage de Tyrant' },
+            { name: 'Broken Recovery Coin', image: 'brokenRecoveryCoin', rarity: 'veryrare', frenchName: 'Pièce de Récupération Brisée' },
+            { name: 'Depleted Ink Ribbon', image: 'depletedInkRibbon', rarity: 'veryrare', frenchName: 'Ruban d\'Encre Vide' },
+            { name: 'Jill\'s Sandwich', image: 'jillsSandwich', rarity: 'veryrare', frenchName: 'Sandwich de Jill' },
+            { name: 'Ne-a Parasite', image: 'ne-aParasite', rarity: 'veryrare', frenchName: 'Parasite Ne-a' },
+            { name: 'Iridescent Umbrella Badge', image: 'iridescentUmbrellaBadge', rarity: 'ultra', frenchName: 'Insigne Irisé d\'Umbrella' },
+            { name: 'Shattered S.T.A.R.S. Badge', image: 'shatteredSTARSBadge', rarity: 'ultra', frenchName: 'Insigne Brisé du S.T.A.R.S.' }
+        ]
+    },
+    'cenobite': {
+        image: 'summonsOfPain',
+        addons: [
+            { name: 'Bent Nail', image: 'bentNail', rarity: 'common', frenchName: 'Clou Tordu' },
+            { name: 'Burning Candle', image: 'burningCandle', rarity: 'common', frenchName: 'Bougie Incandescente' },
+            { name: 'Leather Strip', image: 'leatherStrip', rarity: 'common', frenchName: 'Bandes en Cuir' },
+            { name: 'Lively Crickets', image: 'livelyCrickets', rarity: 'common', frenchName: 'Grillons Vivants' },
+            { name: 'Flickering Television', image: 'flickeringTelevision', rarity: 'uncommon', frenchName: 'Télévision Clignotante' },
+            { name: 'Liquified Gore', image: 'liquifiedGore', rarity: 'uncommon', frenchName: 'Tripes Liquéfiées' },
+            { name: 'Skewered Rat', image: 'skeweredRat', rarity: 'uncommon', frenchName: 'Brochette de Rat' },
+            { name: 'Spoiled Meal', image: 'spoiledMeal', rarity: 'uncommon', frenchName: 'Viande Gâtée' },
+            { name: 'Wriggling Maggots', image: 'wrigglingMaggots', rarity: 'uncommon', frenchName: 'Vers Agités' },
+            { name: 'Frank\'s Heart', image: 'franksHeart', rarity: 'rare', frenchName: 'Coeur de Frank' },
+            { name: 'Larry\'s Blood', image: 'larrysBlood', rarity: 'rare', frenchname: 'Sang de Larry' },
+            { name: 'Larry\'s Remains', image: 'larrysRemains', rarity: 'rare', frenchName: 'Restes de Larry' },
+            { name: 'Slice of Frank', image: 'sliceOfFrank', rarity: 'rare', frenchName: 'Tranche de Frank' },
+            { name: 'Torture Pillar', image: 'torturePillar', rarity: 'rare', frenchName: 'Piller de Torture' },
+            { name: 'Chatterer\'s Tooth', image: 'chatterersTooth', rarity: 'veryrare', frenchName: 'Dent du Bavard' },
+            { name: 'Greasy Black Lens', image: 'greasyBlackLens', rarity: 'veryrare', frenchName: 'Verre Noire Couvert de Graisse' },
+            { name: 'Impaling Wire', image: 'impalingWire', rarity: 'veryrare', frenchName: 'Câble à Empaler' },
+            { name: 'Original Pain', image: 'originalPain', rarity: 'veryrare', frenchName: 'Douleur Originale' },
+            { name: 'Engineer\'s Fang', image: 'engineersFang', rarity: 'ultra', frenchName: 'Croc d\'Ingénieur' },
+            { name: 'Iridescent Lament Configuration', image: 'iridescentLamentConfiguration', rarity: 'ultra', frenchName: 'Configuration des Lamentations Irisée' }
+        ]
+    },
+    'artist': {
+        image: 'birdsOfTorment',
+        addons: [
+            { name: 'Choclo Corn', image: 'chocloCorn', rarity: 'common', frenchName: 'Maïs Choclo' },
+            { name: 'Oil Paints', image: 'oilPaints', rarity: 'common', frenchName: 'Peintures à l\'Huile' },
+            { name: 'Thick Tar', image: 'thickTar', rarity: 'common', frenchName: 'Goudron Épais' },
+            { name: 'Vibrant Obituary', image: 'vibrantObituary', rarity: 'common', frenchName: 'Vibrant Avis de Décès' },
+            { name: 'Automatic Drawing', image: 'automaticDrawing', rarity: 'uncommon', frenchName: 'Dessin Automatique' },
+            { name: 'Festering Carrion', image: 'festeringCarrion', rarity: 'uncommon', frenchName: 'Charogne Pourrissante' },
+            { name: 'Still Life Crow', image: 'stillLifeCrow', rarity: 'uncommon', frenchName: 'Corbeau de Nature Morte' },
+            { name: 'Untitled Agony', image: 'untitledAgony', rarity: 'uncommon', frenchName: 'Agonie Sans Titre' },
+            { name: 'Velvet Fabric', image: 'velvetFabric', rarity: 'uncommon', frenchName: 'Tissu en Velours' },
+            { name: 'Charcoal Stick', image: ''}
+        ]
     }
 }
