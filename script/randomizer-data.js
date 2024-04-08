@@ -994,5 +994,30 @@ const KILLER_POWERS = {
             { name: 'Garden of Rot', image: 'gardenOfRot', rarity: 'ultra', frenchName: 'Jardin de Pourriture' },
             { name: 'Iridescent Feather', image: 'iridescentFeather', rarity: 'ultra', frenchName: 'Plume Irisé' }
         ]
+    },
+    'onryo': {
+        image: 'delugeOfFear',
+        addons: [
+            { name: 'Cabin Sign', image: 'cabinSign', rarity: 'common', frenchName: 'Panneau du Chalet' },
+            { name: 'Mother\'s Mirror', image: 'mothersMirror', rarity: 'common', frenchName: 'Miroir de la Mère' },
+            { name: 'Old Newspaper', image: 'oldNewspaper', rarity: 'common', frenchName: 'Vieux Journal' },
+            { name: 'Videotape Copy', image: 'videotapeCopy', rarity: 'common', frenchName: 'Copie de Cassette Vidéo' },
+            { name: 'Clump of Hair', image: 'clumpOfHair', rarity: 'uncommon', frenchName: 'Poignée de Cheveux' },
+            { name: 'Reiko\'s Watch', image: 'reikosWatch', rarity: 'uncommon', frenchName: 'Montre de Reiko' },
+            { name: 'Sea-Soaked Cloth', image: 'sea-SoakedCloth', rarity: 'uncommon', frenchName: 'Vêtement Trempé d\'Eau de Mer' },
+            { name: 'Well Stone', image: 'wellStone', rarity: 'uncommon', frenchName: 'Puits en Pierre' },
+            { name: 'Yoichi\'s Fishing Net', image: 'yoichisFishingNet', rarity: 'uncommon', frenchName: 'Filet de Pêche de Yoichi' },
+            { name: 'Bloody Fingernails', image: 'bloodyFingernails', rarity: 'rare', frenchName: 'Ongles Sanglants' },
+            { name: 'Mother\'s Comb', image: 'mothersComb', rarity: 'rare', frenchName: 'Peigne de la Mère' },
+            { name: 'Rickety Pinwheel', image: 'ricketyPinwheel', rarity: 'rare', frenchName: 'Moulin à Vent Bancal' },
+            { name: 'Ring Drawing', image: 'ringDrawing', rarity: 'rare', frenchName: 'Dessin d\'un Cercle' },
+            { name: 'Well Water', image: 'wellWater', rarity: 'rare', frenchName: 'Eau de Puits' },
+            { name: 'Distorted Photo', image: 'distortedPhoto', rarity: 'veryrare', frenchName: 'Photo Déformée' },
+            { name: 'Tape Editing Deck', image: 'tapeEditingDeck', rarity: 'veryrare', frenchName: 'Pupitre de Montage de Cassette' },
+            { name: 'Telephone', image: 'telephone', rarity: 'veryrare', frenchName: 'Téléphone' },
+            { name: 'VCR', image: 'vcr', rarity: 'veryrare', frenchName: 'Magnétoscope' },
+            { name: 'Iridescent Videotape', image: 'iridescentVideotape', rarity: 'ultra', frenchName: 'Cassette Vidéo Irisée' },
+            { name: 'Remote Control', image: 'remoteControl', rarity: 'ultra', frenchName: 'Télécommande' }
+        ]
     }
 }
