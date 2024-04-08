@@ -1220,4 +1220,4 @@ const KILLER_POWERS = {
             { name: 'Iridescent OSS Report', image: 'iridescentOSSReport', rarity: 'ultra', frenchName: 'Rapport de l\'OSS Irisé' }
         ]
     }
-}
+};
