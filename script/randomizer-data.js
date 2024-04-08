@@ -982,7 +982,17 @@ const KILLER_POWERS = {
             { name: 'Still Life Crow', image: 'stillLifeCrow', rarity: 'uncommon', frenchName: 'Corbeau de Nature Morte' },
             { name: 'Untitled Agony', image: 'untitledAgony', rarity: 'uncommon', frenchName: 'Agonie Sans Titre' },
             { name: 'Velvet Fabric', image: 'velvetFabric', rarity: 'uncommon', frenchName: 'Tissu en Velours' },
-            { name: 'Charcoal Stick', image: ''}
+            { name: 'Charcoal Stick', image: 'charcoalStick', rarity: 'rare', frenchName: 'Bout de Charbon' },
+            { name: 'Darkest Ink', image: 'darkestInk', rarity: 'rare', frenchName: 'Encre Ténébreuse' },
+            { name: 'O Grief, O Lover', image: 'oGriefOLover', rarity: 'rare', frenchName: 'Ô Chagrin d\'Amour' },
+            { name: 'Silver Bell', image: 'silverBell', rarity: 'rare', frenchName: 'Clochette d\'Argent' },
+            { name: 'Thorny Nest', image: 'thornyNest', rarity:' rare', frenchName: 'Nid Épineux' },
+            { name: 'Ink Egg', image: 'inkEgg', rarity: 'veryrare', frenchName: 'Oeuf d\'Encre' },
+            { name: 'Matias\' Baby Shoes', image: 'matiasBabyShoes', rarity: 'veryrare', frenchName: 'Chaussures de Bébé de Matias' },
+            { name: 'Severed Hands', image: 'severedHands', rarity: 'veryrare', frenchName: 'Mains Tranchées' },
+            { name: 'Severed Tongue', image: 'severedTongue', rarity: 'veryrare', frenchName: 'Langue Tranchée' },
+            { name: 'Garden of Rot', image: 'gardenOfRot', rarity: 'ultra', frenchName: 'Jardin de Pourriture' },
+            { name: 'Iridescent Feather', image: 'iridescentFeather', rarity: 'ultra', frenchName: 'Plume Irisé' }
         ]
     }
 }
