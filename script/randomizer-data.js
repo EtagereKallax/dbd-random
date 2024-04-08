@@ -1254,3 +1254,24 @@ const SURVIVOR_ITEMS = [
     { name: 'Festive Toolbox', image: 'festiveToolbox', type: 'toolbox', rarity: 'blank', frenchName: 'Boîte à Outils des Fêtes' },
     { name: 'Masquerade Toolbox', image: 'masqueradeToolbox', type: 'toolbox', rarity: 'blank', frenchName: 'Boîte à Outils de Mascarade' }
 ];
+
+const ITEMS_ADDONS = {
+    'flashlight': [
+        { name: 'Battery', image: 'battery', rarity: 'common', frenchName: 'Pile' },
+        { name: 'Leather Grip', image: 'leatherGrip', rarity: 'common', frenchName: 'Poignée en Cuir' },
+        { name: 'Power Bulb', image: 'powerBulb', rarity: 'common', frenchName: 'Ampoule Électrique' },
+        { name: 'Wide Lens', image: 'wideLens', rarity: 'common', frenchName: 'Lentille Large' },
+        { name: 'Focus Lens', image: 'focusLens', rarity: 'uncommon', frenchName: 'Lentilles Focales' },
+        { name: 'Heavy Duty Battery', image: 'heavyDutyBattery', rarity: 'uncommon', frenchName: 'Pile Haute Performance' },
+        { name: 'Low Amp Filament', image: 'lowAmpFilament', rarity: 'uncommon', frenchName: 'Filament Bas Ampérage' },
+        { name: 'Rubber Grip', image: 'rubberGrip', rarity: 'uncommon', frenchName: 'Poignée en Caoutchouc' },
+        { name: 'TIR Optic', image: 'tirOptic', rarity: 'uncommon', frenchName: 'Optique à Réflexion Totale' },
+        { name: 'Intense Halogen', image: 'intenseHalogen', rarity: 'rare', frenchName: 'Lampe Halogène Intense' },
+        { name: 'Long Life Battery', image: 'longLifeBattery', rarity: 'rare', frenchName: 'Pile Longue Durée' },
+        { name: 'High-End Sapphire Lens', image: 'highEndSapphireLens', rarity: 'veryrare', frenchName: 'Lentille Haut de Gamme en Saphir' },
+        { name: 'Odd Bulb', image: 'oddBulb', rarity: 'ultra', frenchName: 'Ampoule Bizarre' }
+    ],
+    'key': [
+        { name: 'Prayer Rope', image: 'prayerRope', rarity: 'common', frenchName: 'Corde de Prière' }
+    ]
+};
