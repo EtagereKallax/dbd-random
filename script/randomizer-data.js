@@ -1019,5 +1019,30 @@ const KILLER_POWERS = {
             { name: 'Iridescent Videotape', image: 'iridescentVideotape', rarity: 'ultra', frenchName: 'Cassette Vidéo Irisée' },
             { name: 'Remote Control', image: 'remoteControl', rarity: 'ultra', frenchName: 'Télécommande' }
         ]
+    },
+    'dredge': {
+        image: 'reignOfDarkness',
+        addons: [
+            { name: 'Caffeine Tablets', image: 'caffeineTablets', rarity: 'common', frenchName: 'Comprimés de Caféine' },
+            { name: 'Follower\'s Cowl', image: 'followersCowl', rarity: 'common', frenchName: 'Capuche de Fidèle' },
+            { name: 'Mortar and Pestle', image: 'mortarAndPestle', rarity: 'common', frenchName: 'Pilon et Mortier' },
+            { name: 'Wooden Plank', image: 'woodenPlank', rarity: 'common', frenchName: 'Planche en Bois' },
+            { name: 'Air Freshener', image: 'airFreshener', rarity: 'uncommon', frenchName: 'Désodorisant' },
+            { name: 'Burnt Letters', image: 'burntLetters', rarity: 'uncommon', frenchName: 'Lettres Brûlées' },
+            { name: 'Fallen Shingle', image: 'fallenShingle', rarity: 'uncommon', frenchName: 'Bardeau Tombé' },
+            { name: 'Haddie\'s Calendar', image: 'haddiesCalendar', rarity: 'uncommon', frenchName: 'Calendrier de Haddie' },
+            { name: 'Malthinker\'s Skull', image: 'malthinkersSkull', rarity: 'uncommon', frenchName: 'Crâne de Malpenseur' },
+            { name: 'Broken Doll', image: 'brokenDoll', rarity: 'rare', frenchName: 'Poupée Brisée' },
+            { name: 'Destroyed Pillow', image: 'destroyedPillow', rarity: 'rare', frenchName: 'Oreiller Détruit' },
+            { name: 'Ottomarian Writing', image: 'ottomarianWriting', rarity: 'rare', frenchName: 'Écrits d\'Ottomarien' },
+            { name: 'War Helmet', image: 'warHelmet', rarity: 'rare', frenchName: 'Casque de Guerre' },
+            { name: 'Worry Stone', image: 'worryStone', rarity: 'rare', frenchName: 'Pierre de Soucis' },
+            { name: 'Boat Key', image: 'boatKey', rarity: 'veryrare', frenchName: 'Clé de Bateau' },
+            { name: 'Field Recorder', image: 'fieldRecorder', rarity: 'veryrare', frenchName: 'Enregistreur de Terrain' },
+            { name: 'Lavalier Microphone', image: 'lavalierMicrophone', rarity: 'veryrare', frenchName: 'Micro-Cravate' },
+            { name: 'Tilling Blade', image: 'tillingBlade', rarity: 'veryrare', frenchName: 'Lame de Labourage' },
+            { name: 'Iridescent Wooden Plank', image: 'iridescentWoodenPlank', rarity: 'ultra', frenchName: 'Planche en Bois Iridescente' },
+            { name: 'Sacrificial Knife', image: 'sacrificialKnife', rarity: 'ultra', frenchName: 'Couteau Sacrificiel' }
+        ]
     }
 }
