@@ -1194,5 +1194,30 @@ const KILLER_POWERS = {
             { name: 'Hard Hat', image: 'hardHat', rarity: 'ultra', frenchName: 'Casque de Sécurité' },
             { name: 'Iridescent Amulet', image: 'iridescentAmulet', rarity: 'ultra', frenchName: 'Amulette Irisée' }
         ]
+    },
+    'unknown': {
+        image: 'uvx',
+        addons: [
+            { name: 'Blurry Photo', image: 'blurryPhoto', rarity: 'common', frenchName: 'Photo Floue' },
+            { name: 'Punctured Eyeball', image: 'puncturedEyeball', rarity: 'common', frenchName: 'Globe Oculaire Percé' },
+            { name: 'Rabbit\'s Foot', image: 'rabbitsFoot', rarity: 'common', frenchName: 'Patte de Lapin' },
+            { name: 'Sketch Attempt', image: 'sketchAttempt', rarity: 'common', frenchName: 'Tentative d\'Esquisse' },
+            { name: 'Device of Undisclosed Origin', image: 'deviceOfUndisclosedOrigin', rarity: 'uncommon', frenchName: 'Dispositif d\'Origine Inconnue' },
+            { name: 'Last Known Recording', image: 'lastKnownRecording', rarity: 'uncommon', frenchName: 'Dernier Enregistrement Connu' },
+            { name: 'Notebook of Theories', image: 'notebookOfTheories', rarity: 'uncommon', frenchName: 'Carnet de Théories' },
+            { name: 'Slashed Backpack', image: 'slashedBackpack', rarity: 'uncommon', frenchName: 'Sac à Dos Lacéré' },
+            { name: 'Victim\'s Map', image: 'victimsMap', rarity: 'uncommon', frenchName: 'Carte de la Victime' },
+            { name: 'B-Movie Poster', image: 'b-MoviePoster', rarity: 'rare', frenchName: 'Poster de Film de Série B' },
+            { name: 'Footprint Cast', image: 'footprintCast', rarity: 'rare', frenchName: 'Moulage d\'Empreinte de Pas' },
+            { name: 'Front-Page Article', image: 'front-PageArticle', rarity: 'rare', frenchName: 'Article de Une' },
+            { name: 'Hypnotist\'s Watch', image: 'hypnotistsWatch', rarity: 'rare', frenchName: 'Montre d\'Hypnose' },
+            { name: 'Vanishing Box', image: 'vanishingBox', rarity: 'rare', frenchName: 'Boîte de Disparition' },
+            { name: 'Discarded Milk Carton', image: 'discardedMilkCarton', rarity: 'veryrare', frenchName: 'Brique de Lait Jetée' },
+            { name: 'Homemade Mask', image: 'homemadeMask', rarity: 'veryrare', frenchName: 'Masque Fait Maison' },
+            { name: 'Obscure Game Cartridge', image: 'obscureGameCartridge', rarity: 'veryrare', frenchName: 'Cartouche de Jeu Obscure' },
+            { name: 'Serum Vial', image: 'serumVial', rarity: 'veryrare', frenchName: 'Fiole de Sérum' },
+            { name: 'Captured by the Dark', image: 'capturedByTheDark', rarity: 'ultra', frenchName: 'Rapt par les Ténèbres' },
+            { name: 'Iridescent OSS Report', image: 'iridescentOSSReport', rarity: 'ultra', frenchName: 'Rapport de l\'OSS Irisé' }
+        ]
     }
 }
