@@ -1069,5 +1069,30 @@ const KILLER_POWERS = {
             { name: 'Iridescent Uroboros Vial', image: 'iridescentUroborosVial', rarity: 'ultra', frenchName: 'Éprouvette d\'Uroboros Irisée' },
             { name: 'Lab Photo', image: 'labPhoto', rarity: 'ultra', frenchName: 'Photo de Labo' }
         ]
+    },
+    'knight': {
+        image: 'guardiaCompagnia',
+        addons: [
+            { name: 'Gritty Lump', image: 'grittyLump', rarity: 'common', frenchName: 'Miche Grumeleuse' }
+            { name: 'Map of the Realm', image: 'mapOfTheRealm', rarity: 'common', frenchName: 'Carte du Royaume' },
+            { name: 'Pillaged Mead', image: 'pillagedMead', rarity: 'common', frenchName: 'Hydromel Pillé' },
+            { name: 'Tattered Tabard', image: 'tatteredTabard', rarity: 'common', frenchName: 'Tabard en Lambeaux' },
+            { name: 'Battle Axe Head', image: 'battleAxeHead', rarity: 'uncommon', frenchName: 'Fer de Hache de Guerre' },
+            { name: 'Call to Arms', image: 'callToArms', rarity: 'uncommon', frenchName: 'Appel aux Armes' },
+            { name: 'Cold Steel Manacles', image: 'coldSteelManacles', rarity: 'uncommon', frenchName: 'Menottes en Acier Froid' },
+            { name: 'Dried Horsemeat', image: 'driedHorsemeat', rarity: 'uncommon', frenchName: 'Viande de Cheval Séchée' },
+            { name: 'Treated Blade', image: 'treatedBlade', rarity: 'uncommon', frenchName: 'Lame Traitée' },
+            { name: 'Broken Hilt', image: 'brokenHilt', rarity: 'rare', frenchName: 'Poignée Brisée' },
+            { name: 'Chain Mail Fragment', image: 'chainMailFragment', rarity: 'rare', frenchName: 'Fragment de Cotte de Mailles' },
+            { name: 'Grim Iron Mask', image: 'grimIronMask', rarity: 'rare', frenchName: 'Masque de Fer Sinistre' },
+            { name: 'Ironworker\'s Tongs', image: 'ironworkersTongs', rarity: 'rare', frenchName: 'Pinces de Ferronnier' },
+            { name: 'Town Watch\'s Torch', image: 'townWatchsTorch', rarity: 'rare', frenchName: 'Torche du Guet de la Ville' },
+            { name: 'Blacksmith\'s Hammer', image: 'blacksmithsHammer', rarity: 'veryrare', frenchName: 'Marteau de Forgeron' },
+            { name: 'Flint and Steel', image: 'flintAndSteel', rarity: 'veryrare', frenchName: 'Silex et Acier' },
+            { name: 'Healing Poultice', image: 'healingPoultice', rarity: 'veryrare', frenchName: 'Cataplasme Curatif' },
+            { name: 'Lightweight Greaves', image: 'lightweightGreaves', rarity: 'veryrare', frenchName: 'Grèves Légères' },
+            { name: 'Iridescent Company Banner', image: 'iridescentCompanyBanner', rarity: 'ultra', frenchName: 'Bannière de Compagnie Irisée' },
+            { name: 'Knight\'s Contract', image: 'knightsContract', rarity: 'ultra', frenchName: 'Contrat du Chevalier' }
+        ]
     }
 }
