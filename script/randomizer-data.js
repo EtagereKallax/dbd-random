@@ -1094,5 +1094,30 @@ const KILLER_POWERS = {
             { name: 'Iridescent Company Banner', image: 'iridescentCompanyBanner', rarity: 'ultra', frenchName: 'Bannière de Compagnie Irisée' },
             { name: 'Knight\'s Contract', image: 'knightsContract', rarity: 'ultra', frenchName: 'Contrat du Chevalier' }
         ]
+    },
+    'skullmerchant': {
+        image: 'eyesInTheSky',
+        addons: [
+            { name: 'Adi Valente Issue 1', image: 'adiValenteIssue1', rarity: 'common', frenchName: 'Adi Valente N° 1' },
+            { name: 'High-Current Upgrade', image: 'high-CurrentUpgrade', rarity: 'common', frenchName: 'Haute Amélioration de Courant' },
+            { name: 'High-Power Floodlight', image: 'high-PowerFloodlight', rarity: 'common', frenchName: 'Projecteur Surpuissant' },
+            { name: 'Ultrasonic Speaker', image: 'ultrasonicSpeaker', rarity: 'common', frenchName: 'Haut-Parleur Ultrasonique' },
+            { name: 'Adaptive Lighting', image: 'adaptiveLighting', rarity: 'uncommon', frenchName: 'Éclairage Adaptatif' },
+            { name: 'Low-Power Mode', image: 'low-PowerMode', rarity: 'uncommon', frenchName: 'Mode Basse Consommation' },
+            { name: 'Shotgun Speakers', image: 'shotgunSpeakers', rarity: 'uncommon', frenchName: 'Haut-Parleurs Directionnels' },
+            { name: 'Stereo Remote Mic', image: 'stereoRemoteMic', rarity: 'uncommon', frenchName: 'Micro à Distance Stéréo' },
+            { name: 'Supercharge', image: 'supercharge', rarity: 'uncommon', frenchName: 'Supercharge' },
+            { name: 'Brown Noise Generator', image: 'brownNoiseGenerator', rarity: 'rare', frenchName: 'Générateur de Bruit Brun' },
+            { name: 'Infrared Upgrade', image: 'infraredUpgrade', rarity: 'rare', frenchName: 'Amélioration Infrarouge' },
+            { name: 'Loose Screw', image: 'looseScrew', rarity: 'rare', frenchName: 'Vis Lâche' },
+            { name: 'Powdered Glass', image: 'powderedGlass', rarity: 'rare', frenchName: 'Poudre de Verre' },
+            { name: 'Vital Targeting Processor', image: 'vitalTargetingProcessor', rarity: 'rare', frenchName: 'Processeur de Ciblage Vital' },
+            { name: 'Advanced Movement Prediction', image: 'advancedMovementPrediction', rarity: 'veryrare', frenchName: 'Prédiction de Déplacement Avancé' },
+            { name: 'Geographical Readout', image: 'geographicalReadout', rarity: 'veryrare', frenchName: 'Relevé Géographique' },
+            { name: 'Prototype Rotor', image: 'prototypeRotor', rarity: 'veryrare', frenchName: 'Rotor de Prototype' },
+            { name: 'Randomised Strobes', image: 'randomisedStrobes', rarity: 'veryrare', frenchName: 'Lumières Stoboscopiques Aléatoires' },
+            { name: 'Expired Batteries', image: 'expiredBatteries', rarity: 'ultra', frenchName: 'Piles Périmées' },
+            { name: 'Iridescent Unpublished Manuscript', image: 'iridescentUnpublishedManuscript', rarity: 'ultra', frenchName: 'Manuscrit Non Publié Irisé' }
+        ]
     }
 }
