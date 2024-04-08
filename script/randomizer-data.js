@@ -1221,3 +1221,36 @@ const KILLER_POWERS = {
         ]
     }
 };
+
+const SURVIVOR_ITEMS = [
+    { name: 'Chinese Firecracker', image: 'chineseFirecracker', type: 'firecracker', rarity: 'blank', frenchName: 'Pétard Chinois' },
+    { name: 'Third Year Party Starter', image: 'thirdYearPartyStarter', type: 'firecracker', rarity: 'blank', frenchName: 'Cadeau de 3ème Anniversaire' },
+    { name: 'Winter Party Starter', image: 'winterPartyStarter', type: 'firecracker', rarity: 'blank', frenchName: 'Papillote de la Fête d\'Hiver' },
+    { name: 'Flashlight', image: 'flashlight', type: 'flashlight', rarity: 'uncommon', frenchName: 'Lampe de Poche' },
+    { name: 'Sport Flashlight', image: 'sportFlashlight', type: 'flashlight', rarity: 'rare', frenchName: 'Lampe Torche de Sport' },
+    { name: 'Utility Flashlight', image: 'utilityFlashlight', type: 'flashlight', rarity: 'veryrare', frenchName: 'Lampe de Poche Utilitaire' },
+    { name: 'Anniversary Flashlight', image: 'anniversaryFlashlight', type: 'flashlight', rarity: 'blank', frenchName: 'Lampe de Poche d\'Anniversaire' },
+    { name: 'Masquerade Flashlight', image: 'masqueradeFlashlight', type: 'flashlight', rarity: 'blank', frenchName: 'Lampe de Poche de Mascarade' },
+    { name: 'Will O\' Wisp', image: 'willOWisp', type: 'flashlight', rarity: 'blank', frenchName: 'Feu Follet' },
+    { name: 'Broken Key', image: 'brokenKey', type: 'key', rarity: 'rare', frenchName: 'Clé Cassée' },
+    { name: 'Dull Key', image: 'dullKey', type: 'key', rarity: 'veryrare', frenchName: 'Clé Émoussée' },
+    { name: 'Skeleton Key', image: 'skeletonKey', type: 'key', rarity: 'ultra', frenchName: 'Passe-Partout' },
+    { name: 'Map', image: 'map', type: 'map', rarity: 'rare', frenchName: 'Carte' },
+    { name: 'Rainbow Map', image: 'rainbowMap', type: 'map', rarity: 'ultra', frenchName: 'Carte Arc-en-ciel' },
+    { name: 'Camping Aid Kit', image: 'campingAidKit', type: 'medkit', rarity: 'common', frenchName: 'Trousse de Soins de Camping' },
+    { name: 'First Aid Kit', image: 'firstAidKit', type: 'medkit', rarity: 'uncommon', frenchName: 'Trousse de Premiers Soins' },
+    { name: 'Emergency Med-Kit', image: 'emergencyMed-Kit', type: 'medkit', rarity: 'rare', frenchName: 'Trousse de Soins d\'Urgence' },
+    { name: 'Ranger Med-Kit', image: 'rangerMed-Kit', type: 'medkit', rarity: 'veryrare', frenchName: 'Trousse de Soins de Garde Forestier' },
+    { name: 'All Hallows\' Eve Lunchbox', image: 'allHallowsEveLunchbox', type: 'medkit', rarity: 'blank', frenchName: 'Boîte à Déjeuner d\'Halloween' },
+    { name: 'Anniversary Med-Kit', image: 'anniversaryMed-Kit', type: 'medkit', rarity: 'blank', frenchName: 'Trousse de Soins d\'Anniversaire' },
+    { name: 'Masquerade Med-Kit', image: 'masqueradeMed-Kit', type: 'medkit', rarity: 'blank', frenchName: 'Trousse de Soins de Mascarade' },
+    { name: 'Worn-Out Tools', image: 'worn-OutTools', type: 'toolbox', rarity: 'common', frenchName: 'Outils Usés' },
+    { name: 'Toolbox', image: 'toolbox', type: 'toolbox', rarity: 'uncommon', frenchName: 'Boîte à Outils' },
+    { name: 'Commodious Toolbox', image: 'commodiousToolbox', type: 'toolbox', rarity: 'rare', frenchName: 'Boîte à Outils Spacieuse' },
+    { name: 'Mechanic\'s Toolbox', image: 'mechanicsToolbox', type: 'toolbox', rarity: 'rare', frenchName: 'Boîte à Outils de Mécanicien' },
+    { name: 'Alex\'s Toolbox', image: 'alexsToolbox', type: 'toolbox', rarity: 'veryrare', frenchName: 'Boîte à Outils d\'Alex' },
+    { name: 'Engineer\'s Toolbox', image: 'engineersToolbox', type: 'toolbox', rarity: 'veryrare', frenchName: 'Boîte à Outils de Technicien' },
+    { name: 'Anniversary Toolbox', image: 'anniversaryToolbox', type: 'toolbox', rarity: 'blank', frenchName: 'Boîte à Outils d\'Anniversaire' },
+    { name: 'Festive Toolbox', image: 'festiveToolbox', type: 'toolbox', rarity: 'blank', frenchName: 'Boîte à Outils des Fêtes' },
+    { name: 'Masquerade Toolbox', image: 'masqueradeToolbox', type: 'toolbox', rarity: 'blank', frenchName: 'Boîte à Outils de Mascarade' }
+];
