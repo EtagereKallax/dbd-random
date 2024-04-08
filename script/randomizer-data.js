@@ -1044,5 +1044,30 @@ const KILLER_POWERS = {
             { name: 'Iridescent Wooden Plank', image: 'iridescentWoodenPlank', rarity: 'ultra', frenchName: 'Planche en Bois Iridescente' },
             { name: 'Sacrificial Knife', image: 'sacrificialKnife', rarity: 'ultra', frenchName: 'Couteau Sacrificiel' }
         ]
+    },
+    'mastermind': {
+        image: 'virulentBond',
+        addons: [
+            { name: 'Jewel Beetle', image: 'jewelBeetle', rarity: 'common', frenchName: 'Scarabée Précieux' },
+            { name: 'R.P.D. Shoulder Walkie', image: 'rpdShoulderWalkie', rarity: 'common', frenchName: 'Talkie d\'Épaule du R.P.D.' },
+            { name: 'Unicorn Medallion', image: 'unicornMedallion', rarity: 'common', frenchName: 'Médaillon Licorne' },
+            { name: 'Uroboros Tendril', image: 'uroborosTendril', rarity: 'common', frenchName: 'Vrille d\'Uroboros' },
+            { name: 'Bullhorn', image: 'bullhorn', rarity: 'uncommon', frenchName: 'Porte-Voix' },
+            { name: 'Chalice (Gold)', image: 'chaliceGold', rarity: 'uncommon', frenchName: 'Calice (Or)' },
+            { name: 'Leather Gloves', image: 'leatherGloves', rarity: 'uncommon', frenchName: 'Gants en Cuir' },
+            { name: 'Lion Medallion', image: 'lionMedallion', rarity: 'uncommon', frenchName: 'Médaillon Lion' },
+            { name: 'Loose Crank', image: 'looseCrank', rarity: 'uncommon', frenchName: 'Manivelle Lâche' },
+            { name: 'Egg (Gold)', image: 'eggGold', rarity: 'rare', frenchName: 'Oeuf (Doré)' },
+            { name: 'Maiden Medallion', image: 'maidenMedallion', rarity: 'rare', frenchName: 'Médaillon Jeune Fille' },
+            { name: 'Portable Safe', image: 'portableSafe', rarity: 'rare', frenchName: 'Coffre Portatif' },
+            { name: 'Red Herb', image: 'redHerb', rarity: 'rare', frenchName: 'Plante Rouge' },
+            { name: 'Video Conference Device', image: 'videoConferenceDevice', rarity: 'rare', frenchName: 'Appareil de Vidéo Conférence' },
+            { name: 'Dark Sunglasses', image: 'darkSunglasses', rarity: 'veryrare', frenchName: 'Lunettes de Soleil Sombres' },
+            { name: 'Green Herb', image: 'greenHerb', rarity: 'veryrare', frenchName: 'Plante Verte' },
+            { name: 'Helicopter Stick', image: 'helicopterStick', rarity: 'veryrare', frenchName: 'Manche d\'Hélicoptère' },
+            { name: 'Uroboros Virus', image: 'uroborosVirus', rarity: 'veryrare', frenchName: 'Virus Uroboros' },
+            { name: 'Iridescent Uroboros Vial', image: 'iridescentUroborosVial', rarity: 'ultra', frenchName: 'Éprouvette d\'Uroboros Irisée' },
+            { name: 'Lab Photo', image: 'labPhoto', rarity: 'ultra', frenchName: 'Photo de Labo' }
+        ]
     }
 }
