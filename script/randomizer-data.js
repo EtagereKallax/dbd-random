@@ -1073,7 +1073,7 @@ const KILLER_POWERS = {
     'knight': {
         image: 'guardiaCompagnia',
         addons: [
-            { name: 'Gritty Lump', image: 'grittyLump', rarity: 'common', frenchName: 'Miche Grumeleuse' }
+            { name: 'Gritty Lump', image: 'grittyLump', rarity: 'common', frenchName: 'Miche Grumeleuse' },
             { name: 'Map of the Realm', image: 'mapOfTheRealm', rarity: 'common', frenchName: 'Carte du Royaume' },
             { name: 'Pillaged Mead', image: 'pillagedMead', rarity: 'common', frenchName: 'Hydromel Pillé' },
             { name: 'Tattered Tabard', image: 'tatteredTabard', rarity: 'common', frenchName: 'Tabard en Lambeaux' },
@@ -1272,6 +1272,71 @@ const ITEMS_ADDONS = {
         { name: 'Odd Bulb', image: 'oddBulb', rarity: 'ultra', frenchName: 'Ampoule Bizarre' }
     ],
     'key': [
-        { name: 'Prayer Rope', image: 'prayerRope', rarity: 'common', frenchName: 'Corde de Prière' }
+        { name: 'Prayer Rope', image: 'prayerRope', rarity: 'common', frenchName: 'Corde de Prière' },
+        { name: 'Eroded Token', image: 'erodedToken', rarity: 'uncommon', frenchName: 'Jeton Rongé' },
+        { name: 'Prayer Beads', image: 'prayerBeads', rarity: 'uncommon', frenchName: 'Perles de Prière' },
+        { name: 'Scratched Pearl', image: 'scratchedPearl', rarity: 'uncommon', frenchName: 'Perle Girffée' },
+        { name: 'Gold Token', image: 'goldToken', rarity: 'rare', frenchName: 'Jeton en Or' },
+        { name: 'Blood Amber', image: 'bloodAmber', rarity: 'veryrare', frenchName: 'Ambre de Sang' },
+        { name: 'Milky Glass', image: 'milkyGlass', rarity: 'veryrare', frenchName: 'Verre Opalin' },
+        { name: 'Unique Wedding Ring', image: 'uniqueWeddingRing', rarity: 'veryrare', frenchName: 'Alliance Unique' },
+        { name: 'Weaved Ring', image: 'weavedRing', rarity: 'veryrare', frenchName: 'Anneau Porte-Clés' }
+    ],
+    'map': [
+        { name: 'Map Addendum', image: 'mapAddendum', rarity: 'common', frenchName: 'Carte : Addenda' },
+        { name: 'Glass Bead', image: 'glassBead', rarity: 'uncommon', frenchName: 'Perle de Verre' },
+        { name: 'Red Twine', image: 'redTwine', rarity: 'uncommon', frenchName: 'Ficelle Rouge' },
+        { name: 'Retardant Jelly', image: 'retardantJelly', rarity: 'uncommon', frenchName: 'Gelée Retardatrice' },
+        { name: 'Unusual Stamp', image: 'unusualStamp', rarity: 'uncommon', frenchName: 'Cachet Étrange' },
+        { name: 'Yellow Wire', image: 'yellowWire', rarity: 'uncommon', frenchName: 'Fil Jaune' },
+        { name: 'Black Silk Cord', image: 'blackSilkCord', rarity: 'rare', frenchName: 'Cordon de Sole Noire' },
+        { name: 'Odd Stamp', image: 'oddStamp', rarity: 'rare', frenchName: 'Cachet Étrange' },
+        { name: 'Crystal Bead', image: 'crystalBead', rarity: 'veryrare', frenchName: 'Lentilles de Cristal' }
+    ],
+    'medkit': [
+        { name: 'Bandages', image: 'bandages', rarity: 'common', frenchName: 'Pansements' },
+        { name: 'Butterfly Tape', image: 'butterflyTape', rarity: 'common', frenchName: 'Sutures Cutanées' },
+        { name: 'Rubber Gloves', image: 'rubberGloves', rarity: 'common', frenchName: 'Gants de Caoutchouc' },
+        { name: 'Medical Scissors', image: 'medicalScissors', rarity: 'uncommon', frenchName: 'Ciseaux Médicaux' },
+        { name: 'Needle & Thread', image: 'needleAndThread', rarity: 'uncommon', frenchName: 'Fil et Aiguille' },
+        { name: 'Self Adherent Wrap', image: 'selfAdherentWrap', rarity: 'uncommon', frenchName: 'Rouleau de Sparadrap' },
+        { name: 'Sponge', image: 'sponge', rarity: 'uncommon', frenchName: 'Éponge' },
+        { name: 'Gauze Roll', image: 'gauzeRoll', rarity: 'rare', frenchName: 'Bande de Gaze' },
+        { name: 'Surgical Suture', image: 'surgicalSuture', rarity: 'rare', frenchName: 'Suture Chirurgicale' },
+        { name: 'Abdominal Dressing', image: 'abdominalDressing', rarity: 'veryrare', frenchName: 'Pansement Abdominal' },
+        { name: 'Styptic Agent', image: 'stypticAgent', rarity: 'veryrare', frenchName: 'Agent Styptique' },
+        { name: 'Anti-Haemorrhagic Syringe', image: 'antiHaemorrhagicSyringe', rarity: 'ultra', frenchName: 'Seringue Antihémorragique' },
+        { name: 'Gel Dressings', image: 'gelDressings', rarity: 'ultra', frenchName: 'Pansements Hydrogels' }
+    ],
+    'toolbox': [
+        { name: 'Clean Rag', image: 'cleanRag', rarity: 'common', frenchName: 'Chiffon Propre' },
+        { name: 'Instructions', image: 'instructions', rarity: 'common', frenchName: 'Instructions' },
+        { name: 'Scraps', image: 'scraps', rarity: 'common', frenchName: 'Ferraille' },
+        { name: 'Cutting Wire', image: 'cuttingWire', rarity: 'uncommon', frenchName: 'Fil à Couper' },
+        { name: 'Protective Gloves', image: 'protectiveGloves', rarity: 'uncommon', frenchName: 'Gants de Protection' },
+        { name: 'Socket Swivels', image: 'socketSwivels', rarity: 'uncommon', frenchName: 'Tourillons' },
+        { name: 'Spring Clamp', image: 'springClamp', rarity: 'uncommon', frenchName: 'Pince à Ressort' },
+        { name: 'Wire Spool', image: 'wireSpool', rarity: 'uncommon', frenchName: 'Bobine de Fil' },
+        { name: 'Grip Wrench', image: 'gripWrench', rarity: 'rare', frenchName: 'Clé Ajustable' },
+        { name: 'Hacksaw', image: 'hacksaw', rarity: 'rare', frenchName: 'Scie à Métaux' },
+        { name: 'Brand New Part', image: 'brandNewPart', rarity: 'ultra', frenchName: 'Pièce Flambant Neuve' }
     ]
 };
+
+const COMMON_OFFERS = [
+    { name: 'Airlock Doors', image: 'airlockDoors', type: 'common', rarity: 'rare', frenchName: 'Portes du Sas d\'Aération' },
+    { name: 'Alien Flora', image: 'alienFlora', type: 'common', rarity: 'rare', frenchName: 'Flore Extraterrestre' },
+    { name: 'Annotated Blueprint', image: 'annotatedBlueprint', type: 'common', rarity: 'common', frenchName: 'Plan Annoté' },
+    { name: 'Azarov\'s Key', image: 'azarovsKey', type: 'common', rarity: 'rare', frenchName: 'Clé d\'Azarov' },
+    { name: 'Beef Tallow Mixture', image: 'beefTallowMixture', type: 'common', rarity: 'rare', frenchName: 'Mixture de Sulf de Boeuf' },
+    { name: 'Bloodied Blueprint', image: 'bloodiedBlueprint', type: 'common', rarity: 'common', frenchName: 'Plan Ensanglanté' },
+    { name: 'Charred Wedding Photograph', image: 'charredWeddingPhotograph', type: 'common', rarity: 'rare', frenchName: 'Photo de Mariage Calcinée' },
+    { name: 'Faint Reagent', image: 'faintReagent', type: 'common', rarity: 'common', frenchName: 'Réactif Faible' },
+    { name: 'Crow\'s Eye', image: 'crowsEye', type: 'common', rarity: 'rare', frenchName: 'Oeil de Corbeau' },
+    { name: 'Damaged Photo', image: 'damagedPhoto', type: 'common', rarity: 'rare', frenchName: 'Photo Abîmée' },
+    { name: 'Clear Reagent', image: 'clearReagent', type: 'common', rarity: 'common', frenchName: 'Réactif Transparent' },
+    { name: 'Grandma\'s Cookbook', image: 'grandmasCookbook', type: 'common', rarity: 'rare', frenchName: 'Livre de Recettes de Grand-Mère' },
+    { name: 'Hawkins National Laboratory ID', image: 'hawkinsNationalLaboratoryID', type: 'common', rarity: 'rare', frenchName: 'Carte d\'Identification du Laboratoire National d\'Hawkins' },
+    { name: 'Hazy Reagent', image: 'hazyReagent', type: 'common', rarity: 'uncommon', frenchName: 'Réactif Vaporeux' },
+    { name: 'Heart Locket', image: 'heartLocket', type: 'common', rarity: 'rare', frenchName: ''}
+]
