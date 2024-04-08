@@ -1119,5 +1119,30 @@ const KILLER_POWERS = {
             { name: 'Expired Batteries', image: 'expiredBatteries', rarity: 'ultra', frenchName: 'Piles Périmées' },
             { name: 'Iridescent Unpublished Manuscript', image: 'iridescentUnpublishedManuscript', rarity: 'ultra', frenchName: 'Manuscrit Non Publié Irisé' }
         ]
+    },
+    'singularity': {
+        image: 'quantumInstantiation',
+        addons: [
+            { name: 'Broken Security Key', image: 'brokenSecurityKey', rarity: 'common', frenchName: 'Clé de Sécurité Cassée' },
+            { name: 'Heavy Water', image: 'heavyWater', rarity: 'common', frenchName: 'Eau Lourde' },
+            { name: 'Kid\'s Ball Glove', image: 'kidsBallGlove', rarity: 'common', frenchName: 'Gant de Baseball d\'Enfant' },
+            { name: 'Nutritional Slurry', image: 'nutritionalSlurry', rarity: 'common', frenchName: 'Bouillie Nutritive' },
+            { name: 'Android Arm', image: 'androidArm', rarity: 'uncommon', frenchName: 'Bras d\'Androïde' },
+            { name: 'Cremated Remains', image: 'crematedRemains', rarity: 'uncommon', frenchName: 'Restes Incinérés' },
+            { name: 'Cryo Gel', image: 'cryoGel', rarity: 'uncommon', frenchName: 'Gel Cryogénique' },
+            { name: 'Diagnostic Tool (Repair)', image: 'diagnosticToolRepair', rarity: 'uncommon', frenchName: 'Outil de Diagnostique (Réparation)' },
+            { name: 'Ultrasonic Sensor', image: 'ultrasonicSensor', rarity: 'uncommon', frenchName: 'Détecteur Ultrasonique' },
+            { name: 'Hologram Generator', image: 'hologramGenerator', rarity: 'rare', frenchName: 'Générateur d\'Hologrammes' },
+            { name: 'Hyperawareness Spray', image: 'hyperawarenessSpray', rarity: 'rare', frenchName: 'Aérosol d\'Hypervigilance' },
+            { name: 'Live Wires', image: 'liveWires', rarity: 'rare', frenchName: 'Fils Sous Tension' },
+            { name: 'Nanomachine Gel', image: 'nanomachineGel', rarity: 'rare', frenchName: 'Gel de Nanomachines' },
+            { name: 'Spent Oxygen Tank', image: 'spentOxygenTank', rarity: 'rare', frenchName: 'Bonbonne d\'Oxygène Vide' },
+            { name: 'Crew Manifest', image: 'crewManifest', rarity: 'veryrare', frenchName: 'Manifeste de l\'Équipage' },
+            { name: 'Diagnostic Tool (Construction)', image: 'diagnosticToolConstruction', rarity: 'veryrare', frenchName: 'Outil de Diagnostique (Construction)' },
+            { name: 'Foreign Plant Fibres', image: 'foreignPlantFibres', rarity: 'veryrare', frenchName: 'Fibres de Plante Étrangère' },
+            { name: 'Soma Family Photo', image: 'somaFamilyPhoto', rarity: 'veryrare', frenchName: 'Photo de la Famille Soma' },
+            { name: 'Denied Requisition Form', image: 'deniedRequisitionForm', rarity: 'ultra', frenchName: 'Formulaire de Réquisition Refusée' },
+            { name: 'Iridescent Crystal Shard', image: 'iridescentCrystalShard', rarity: 'ultra', frenchName: 'Éclat de Cristal Irisé' }
+        ]
     }
 }
