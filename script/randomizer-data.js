@@ -1144,5 +1144,30 @@ const KILLER_POWERS = {
             { name: 'Denied Requisition Form', image: 'deniedRequisitionForm', rarity: 'ultra', frenchName: 'Formulaire de Réquisition Refusée' },
             { name: 'Iridescent Crystal Shard', image: 'iridescentCrystalShard', rarity: 'ultra', frenchName: 'Éclat de Cristal Irisé' }
         ]
+    },
+    'xenomorph': {
+        image: 'hiddenPursuit',
+        addons: [
+            { name: 'Cereal Rations', image: 'cerealRations', rarity: 'common', frenchName: 'Rations de Céréales' },
+            { name: 'Drinking Bird', image: 'drinkingBird', rarity: 'common', frenchName: 'Buveur' },
+            { name: 'Ovomorph', image: 'ovomorph', rarity: 'common', frenchName: 'Ovomorphe' },
+            { name: 'Ripley\'s Watch', image: 'ripleysWatch', rarity: 'common', frenchName: 'Montre de Ripley' },
+            { name: 'Ash\'s Innards', image: 'ashsInnards', rarity: 'uncommon', frenchName: 'Entrailles de Ash' },
+            { name: 'Brett\'s Cap', image: 'brettsCap', rarity: 'uncommon', frenchName: 'Casquette de Brett' },
+            { name: 'Crew Headset', image: 'crewHeadset', rarity: 'uncommon', frenchName: 'Casque Audio d\'Équipage' },
+            { name: 'Lambert\'s Star Map', image: 'lambertsStarMap', rarity: 'uncommon', frenchName: 'Carte Stellaire de Lambert' },
+            { name: 'Light Wand', image: 'lightWand', rarity: 'uncommon', frenchName: 'Bâton de Lumière' },
+            { name: 'Emergency Helmet', image: 'emergencyHelmet', rarity: 'rare', frenchName: 'Casque d\'Urgence' },
+            { name: 'Kane\'s Helmet', image: 'kanesHelmet', rarity: 'rare', frenchName: 'Casque de Kane' },
+            { name: 'Moulted Skin', image: 'moultedSkin', rarity: 'rare', frenchName: 'Peau en Fusion' },
+            { name: 'Multipurpose Hatchet', image: 'multipurposeHatchet', rarity: 'rare', frenchName: 'Hachette Polyvalente' },
+            { name: 'Parker\'s Headband', image: 'parkersHeadband', rarity: 'rare', frenchName: 'Bandeau de Parker' },
+            { name: 'Cat Carrier', image: 'catCarrier', rarity: 'veryrare', frenchName: 'Caisse de Transport du Chat' },
+            { name: 'Harpoon Gun', image: 'harpoonGun', rarity: 'veryrare', frenchName: 'Lance-Grappin' },
+            { name: 'Self-Destruct Bolt', image: 'self-DestructBolt', rarity: 'veryrare', frenchName: 'Boulon d\'Autodestruction' },
+            { name: 'Semiotic Keyboard', image: 'semioticKeyboard', rarity: 'veryrare', frenchName: 'Clavier Sémiotique' },
+            { name: 'Acidic Blood', image: 'acidicBlood', rarity: 'ultra', frenchName: 'Sang Acide' },
+            { name: 'Improvised Cattle Prod', image: 'improvisedCattleProd', rarity: 'ultra', frenchName: 'Aiguillon Amélioré' }
+        ]
     }
 }
