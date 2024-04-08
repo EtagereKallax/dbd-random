@@ -1169,5 +1169,30 @@ const KILLER_POWERS = {
             { name: 'Acidic Blood', image: 'acidicBlood', rarity: 'ultra', frenchName: 'Sang Acide' },
             { name: 'Improvised Cattle Prod', image: 'improvisedCattleProd', rarity: 'ultra', frenchName: 'Aiguillon Amélioré' }
         ]
+    },
+    'goodguy': {
+        image: 'playtimesOver',
+        addons: [
+            { name: 'Doll Eyes', image: 'dollEyes', rarity: 'common', frenchName: 'Yeux de Poupée' },
+            { name: 'Good Guy Box', image: 'goodGuyBox', rarity: 'common', frenchName: 'Boîte de Brave Gars' },
+            { name: 'Strobing Light', image: 'strobingLight', rarity: 'common', frenchName: 'Lumière Stroboscopique' },
+            { name: 'Tiny Scalpel', image: 'tinyScalpel', rarity: 'common', frenchName: 'Scalpel Minuscule' },
+            { name: 'Automatic Screwdriver', image: 'automaticScrewdriver', rarity: 'uncommon', frenchName: 'Tournevis Automatique' },
+            { name: 'Electric Carving Knife', image: 'electricCarvingKnife', rarity: 'uncommon', frenchName: 'Couteau à Découper Électrique' },
+            { name: 'Hair Spray & Candle', image: 'hairSpray&Candle', rarity: 'uncommon', frenchName: 'Laque pour Cheveux et Bougie' },
+            { name: 'Jump Rope', image: 'jumpRope', rarity: 'uncommon', frenchName: 'Corde à Sauter' },
+            { name: 'Power Drill', image: 'powerDrill', rarity: 'uncommon', frenchName: 'Perceuse' },
+            { name: 'Portable TV', image: 'portableTV', rarity: 'rare', frenchName: 'Télé Portable' },
+            { name: 'Rat Poison', image: 'ratPoison', rarity: 'rare', frenchName: 'Mort-aux-Rats' },
+            { name: 'Running Shoes', image: 'runningShoes', rarity: 'rare', frenchName: 'Chaussures de Course' },
+            { name: 'Silk Pillow', image: 'silkPillow', rarity: 'rare', frenchName: 'Oreiller en Soie' },
+            { name: 'Yardstick', image: 'yardstick', rarity: 'rare', frenchName: 'Règle en Bois' },
+            { name: 'Mirror Shards', image: 'mirrorShards', rarity: 'veryrare', frenchName: 'Éclats de Miroir' },
+            { name: 'Pile of Nails', image: 'pileOfNails', rarity: 'veryrare', frenchName: 'Tas de Clous' },
+            { name: 'Plastic Bag', image: 'plasticBag', rarity: 'veryrare', frenchName: 'Sac en Plastique' },
+            { name: 'Straight Razor', image: 'straightRazor', rarity: 'veryrare', frenchName: 'Rasoir Droit' },
+            { name: 'Hard Hat', image: 'hardHat', rarity: 'ultra', frenchName: 'Casque de Sécurité' },
+            { name: 'Iridescent Amulet', image: 'iridescentAmulet', rarity: 'ultra', frenchName: 'Amulette Irisée' }
+        ]
     }
 }
