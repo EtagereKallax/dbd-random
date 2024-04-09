@@ -1368,3 +1368,18 @@ const KILLER_OFFERS = $.merge([
     { name: 'Scratched Coin', image: 'scratchedCoin', type: 'killer', rarity: 'uncommon', frenchName: 'Pièce de Monnaie Griffée' },
     { name: 'Shroud of Separation', image: 'shroudOfSeparation', type: 'killer', rarity: 'uncommon', frenchName: 'Linceul de Séparation' }
 ], COMMON_OFFERS);
+
+const SURVIVOR_OFFERS = $.merge([
+    { name: 'Black Salt Statuette', image: 'blackSaltStatuette', type: 'survivor', rarity: 'rare', frenchName: 'Statuette de Sel Noir' },
+    { name: 'Chalk Pouch', image: 'chalkPouch', type: 'survivor', rarity: 'common', frenchName: 'Pochette de Craie' },
+    { name: 'Cream Chalk Pouch', image: 'creamChalkPouch', type: 'survivor', rarity: 'uncommon', frenchName: 'Pochette de Craie Crème' },
+    { name: 'Petrified Oak', image: 'petrifiedOak', type: 'survivor', rarity: 'veryrare', frenchName: 'Chêne Pétrifié' },
+    { name: 'Salt Pouch', image: 'saltPouch', type: 'survivor', rarity: 'uncommon', frenchName: 'Pochette de Sel' },
+    { name: 'Shiny Coin', image: 'shinyCoin', type: 'survivor', rarity: 'veryrare', frenchName: 'Pièce de Monnaie Brillante' },
+    { name: 'Shroud of Binding', image: 'shroudOfBinding', type: 'survivor', rarity: 'veryrare', frenchName: 'Linceul d\'Entrave' },
+    { name: 'Tarnished Coin', image: 'tarnishedCoin', type: 'survivor', rarity: 'uncommon', frenchName: 'Pièce de Monnaie Usée' },
+    { name: 'Shroud of Union', image: 'shroudOfUnion', type: 'survivor', rarity: 'uncommon', frenchName: 'Linceul d\'Union' },
+    { name: 'Vigo\'s Jar of Salty Lips', image: 'vigosJarOfSaltyLips', type: 'survivor', rarity: 'veryrare', frenchName: 'Bocal de Lèvres Salées de Vigo' },
+    { name: 'Vigo\'s Shroud', image: 'vigosShroud', type: 'survivor', rarity: 'uncommon', frenchName: 'Linceul de Vigo' },
+    { name: 'White Ward', image: 'whiteWard', type: 'survivor', rarity: 'veryrare', frenchName: 'Parade Blanche' }
+], COMMON_OFFERS);
