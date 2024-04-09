@@ -1338,5 +1338,24 @@ const COMMON_OFFERS = [
     { name: 'Grandma\'s Cookbook', image: 'grandmasCookbook', type: 'common', rarity: 'rare', frenchName: 'Livre de Recettes de Grand-Mère' },
     { name: 'Hawkins National Laboratory ID', image: 'hawkinsNationalLaboratoryID', type: 'common', rarity: 'rare', frenchName: 'Carte d\'Identification du Laboratoire National d\'Hawkins' },
     { name: 'Hazy Reagent', image: 'hazyReagent', type: 'common', rarity: 'uncommon', frenchName: 'Réactif Vaporeux' },
-    { name: 'Heart Locket', image: 'heartLocket', type: 'common', rarity: 'rare', frenchName: ''}
-]
+    { name: 'Heart Locket', image: 'heartLocket', type: 'common', rarity: 'rare', frenchName: 'Médaillon en Coeur' },
+    { name: 'Ichorous Loam', image: 'ichorousLoam', type: 'common', rarity: 'rare', frenchName: 'Terreau Ichoreux' },
+    { name: 'Jigsaw Piece', image: 'jigsawPiece', type: 'common', rarity: 'rare', frenchName: 'Pièce de Puzzle' },
+    { name: 'MacMillan\'s Phalanx Bone', image: 'macMillansPhalanxBone', type: 'common', rarity: 'rare', frenchName: 'Phalange de MacMillan' },
+    { name: 'Mary\'s Letter', image: 'marysLetter', type: 'common', rarity: 'rare', frenchName: 'Lettre de Mary' },
+    { name: 'Murky Reagent', image: 'murkyReagent', type: 'common', rarity: 'veryrare', frenchName: 'Réactif Trouble' },
+    { name: 'RPD Badge', image: 'rpdBadge', type: 'common', rarity: 'rare', frenchName: 'Badge du RCPD' },
+    { name: 'Sacrificial Ward', image: 'sacrificialWard', type: 'common', rarity: 'rare', frenchName: 'Acte Sacrificiel' },
+    { name: 'Shattered Bottle', image: 'shatteredBottle', type: 'common', rarity: 'rare', frenchName: 'Bouteille Brisée' },
+    { name: 'Shattered Glasses', image: 'shatteredGlasses', type: 'common', rarity: 'rare', frenchName: 'Lunettes Cassées' },
+    { name: 'Strode Realty Key', image: 'strodeRealtyKey', type: 'common', rarity: 'rare', frenchName: 'Clé de la Propriété Strode' },
+    { name: 'The Last Mask', image: 'theLastMask', type: 'common', rarity: 'rare', frenchName: 'Le Dernier Masque' },
+    { name: 'The Pied Piper', image: 'thePiedPiper', type: 'common', rarity: 'rare', frenchName: 'Le Joueur de Flûte' },
+    { name: 'Torn Blueprint', image: 'tornBlueprint', type: 'common', rarity: 'common', frenchName: 'Plan Déchiré' },
+    { name: 'Vigo\'s Blueprint', image: 'vigosBlueprint', type: 'common', rarity: 'common', frenchName: 'Plan de Vigo' },
+    { name: 'Yamaoka Family Crest', image: 'yamaokaFamilyCrest', type: 'common', rarity: 'rare', frenchName: 'Blason de la Famille Yamaoka' }
+];
+
+const KILLER_OFFERS = $.merge([
+    
+])
