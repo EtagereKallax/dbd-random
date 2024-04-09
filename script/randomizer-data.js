@@ -1357,5 +1357,14 @@ const COMMON_OFFERS = [
 ];
 
 const KILLER_OFFERS = $.merge([
-    
-])
+    { name: 'Black Ward', image: 'blackWard', type: 'killer', rarity: 'veryrare', frenchName: 'Parade Noire' },
+    { name: 'Cut Coin', image: 'cutCoin', type: 'killer', rarity: 'veryrare', frenchName: 'Pièce de Monnaie Coupée' },
+    { name: 'Cypress Memento Mori', image: 'cypressMementoMori', type: 'killer', rarity: 'uncommon', frenchName: 'Memento Mori en Cyprès' },
+    { name: 'Ebony Memento Mori', image: 'ebonyMementoMori', type: 'killer', rarity: 'ultra', frenchName: 'Memento Mori en Ébène' },
+    { name: 'Ivory Memento Mori', image: 'ivoryMementoMori', type: 'killer', rarity: 'rare', frenchName: 'Memento Mori en Ivoire' },
+    { name: 'Mouldy Oak', image: 'moldyOak', type: 'killer', rarity: 'uncommon', frenchName: 'Chêne Moisi' },
+    { name: 'Putrid Oak', image: 'putridOak', type: 'killer', rarity: 'veryrare', frenchName: 'Chêne Putride' },
+    { name: 'Rotten Oak', image: 'rottenOak', type: 'killer', rarity: 'rare', frenchName: 'Chêne Pourri' },
+    { name: 'Scratched Coin', image: 'scratchedCoin', type: 'killer', rarity: 'uncommon', frenchName: 'Pièce de Monnaie Griffée' },
+    { name: 'Shroud of Separation', image: 'shroudOfSeparation', type: 'killer', rarity: 'uncommon', frenchName: 'Linceul de Séparation' }
+], COMMON_OFFERS);
