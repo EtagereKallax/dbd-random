@@ -179,7 +179,7 @@ const KILLER_PERKS = [
     'scourgeHookMonstrousShrine',
     'scourgeHookPainResonance',
     'septicTouch',
-    'shadowbord',
+    'shadowborn',
     'shatteredHope',
     'sloopyButcher',
     'spiesFromTheShadows',
