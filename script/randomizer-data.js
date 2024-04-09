@@ -181,7 +181,7 @@ const KILLER_PERKS = [
     'septicTouch',
     'shadowborn',
     'shatteredHope',
-    'sloopyButcher',
+    'sloppyButcher',
     'spiesFromTheShadows',
     'spiritFury',
     'starstruck',
