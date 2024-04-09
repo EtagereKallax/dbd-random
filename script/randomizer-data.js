@@ -62,7 +62,7 @@ const KILLERS = [
     'clown',
     'spirit',
     'legion',
-    'plage',
+    'plague',
     'ghostface',
     'demogorgon',
     'oni',
