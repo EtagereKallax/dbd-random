@@ -301,6 +301,7 @@ const SURVIVOR_PERKS = [
     'premonition',
     'proveThyself',
     'quickGambit',
+    'quickAndQuiet',
     'reactiveHealing',
     'reassurance',
     'redHerring',
