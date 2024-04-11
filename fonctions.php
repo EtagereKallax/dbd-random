@@ -29,7 +29,7 @@ function checkConnection($pseudo, $code, $db): void {
             page('Accueil.php');
         } else {
             // Si l'utilisateur n'existe pas, affichage d'un message d'erreur
-            $errorMessage = "Veuillez vérifier votre pseudo ou votre code."
+            $errorMessage = "Veuillez vérifier votre pseudo ou votre code.";
         }
     } else {
         // Si l'utilisateur ou le code est vvide, affichage d'un message d'erreur
