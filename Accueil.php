@@ -1,6 +1,6 @@
 <?php
 require('fonctions.php');
-if($_SESSION['idUtilisateur'] == "") {
+if($_SESSION['idUtilisateur'] == null) {
     page('connexion.php');
 }
 selectionnerPersonnages($_SESSION['idUtilisateur'], $db);
