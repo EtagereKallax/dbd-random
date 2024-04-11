@@ -1,9 +1,9 @@
-<!-- <?php
+<?php
 require('fonctions.php');
 if($_SESSION['idUtilisateur'] == null) {
     page('connexion.php');
 }
-?> -->
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,10 +25,10 @@ if($_SESSION['idUtilisateur'] == null) {
     <script src="script/randomizer-ui-translator.js"></script>
     <script src="script/randomizer-url-builder.js"></script>
     <script src="script/randomizer.js"></script>
-    <!-- <script>
+    <script>
         SURVIVORS = <?php echo $_SESSION['survivants']; ?>;
         KILLERS = <?php echo $_SESSION['tueurs']; ?>;
-    </script> -->
+    </script>
 </head>
 <body>
 
