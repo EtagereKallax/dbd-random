@@ -11,6 +11,7 @@ session_cache_expire(60);
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/connexion.css" />
         <title>Page de connexion</title>
+        <script src="script/fonctions.js"></script>
     </head>
     <body>
         <div class="container">
