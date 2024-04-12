@@ -3,6 +3,7 @@ require('fonctions.php');
 if($_SESSION['idUtilisateur'] == "") {
     page('connexion.php');
 }
+deleteCharacter($_SESSION['idUtilisateur'], $db);
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -37,7 +38,7 @@ if($_SESSION['idUtilisateur'] == "") {
                 insert("characters(idUtilisateur, perso, role)", "(?,?,?)", array($_SESSION['idUtilisateur'], $tueur, 2), $db);
             }
 
-            page("index.php");
+            page("random.php");
         }
         ?>
     </body>

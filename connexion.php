@@ -2,6 +2,7 @@
 require("fonctions.php");
 session_destroy();
 session_start();
+session_cache_expire(60);
 ?>
 <!DOCTYPE html>
 <html lang="fr">

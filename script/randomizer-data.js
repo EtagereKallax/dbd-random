@@ -3,7 +3,7 @@ const ROLES = [
     'survivor'
 ];
 
-const SURVIVORS = [
+var SURVIVORS = [
     'dwight',
     'meg',
     'claudette',
@@ -47,7 +47,7 @@ const SURVIVORS = [
     'sable'
 ]; // list of all available survivors
 
-const KILLERS = [
+var KILLERS = [
     'trapper',
     'wraith',
     'hillbilly',

@@ -162,8 +162,7 @@ class RandomizerUiHandler {
         });
 
         $('#randomize-perks').on("click", function () {
-            self.disableControls();
-            slotMachineEngine.randomizePerks();
+            document.location.replace("choix.php");
         });
 
         $('#randomize-items').on("click", function () {

@@ -21,7 +21,7 @@ selectionnerPersonnages($_SESSION['idUtilisateur'], $db);
             </div>
             <div class="split right">
                 <h1>Randomiser</h1>
-                <a href="index.php" class="btn">Randomiser</a>
+                <a href="random.php" class="btn">Randomiser</a>
             </div>
         </div>
         <script src="script/accueil.js"></script>

@@ -86,7 +86,7 @@ function selectionnerPersonnages($idUtilisateur, $db) {
     $survivants = $selectSurvivants->fetchAll();
     $_SESSION['survivants'] = array();
     foreach($survivants as $survivant) {
-        array_push($_SESSION['survivants'], $survivant['perso']);
+        $_SESSION['survivants'][] = $survivant['perso'];
     }
 
     $selectTueurs = $db->prepare("SELECT perso FROM characters WHERE idUtilisateur = ? AND `role` = 2");
@@ -94,12 +94,12 @@ function selectionnerPersonnages($idUtilisateur, $db) {
     $tueurs = $selectTueurs->fetchAll();
     $_SESSION['tueurs'] = array();
     foreach($tueurs as $tueur) {
-        array_push($_SESSION['tueurs'], $tueur['perso']);
+        $_SESSION['tueurs'][] = $tueur['perso'];
     }
 }
 
-function deleteCharacter($table, $condition, $values, $db) {
-    $deleteCharacter = $db->prepare("DELETE FROM " . $table . " WHERE " . $condition);
-    $deleteCharacter->execute($values);
+function deleteCharacter($idUtilisateur, $db) {
+    $deleteCharacter = $db->prepare("DELETE FROM characters WHERE idUtilisateur = ?");
+    $deleteCharacter->execute(array($idUtilisateur));
 }
 ?>

@@ -17,6 +17,12 @@ if($_SESSION['idUtilisateur'] == null) {
     <script src="lib/js/jquery.slotmachine.min.js"></script>
     <script src="script/randomizer-constants.js"></script>
     <script src="script/randomizer-data.js"></script>
+    <?php 
+    echo "<script>";
+    echo "SURVIVORS = " . json_encode($_SESSION['survivants']) . ";";
+    echo "KILLERS = " . json_encode($_SESSION['tueurs']) . ";";
+    echo "</script>";
+    ?>
     <script src="script/randomizer-engine.js"></script>
     <script src="script/randomizer-slot-machine-engine.js"></script>
     <script src="script/randomizer-ui-handler.js"></script>
@@ -25,10 +31,6 @@ if($_SESSION['idUtilisateur'] == null) {
     <script src="script/randomizer-ui-translator.js"></script>
     <script src="script/randomizer-url-builder.js"></script>
     <script src="script/randomizer.js"></script>
-    <script>
-        SURVIVORS = <?php echo $_SESSION['survivants']; ?>;
-        KILLERS = <?php echo $_SESSION['tueurs']; ?>;
-    </script>
 </head>
 <body>
 
